@@ -1,0 +1,8 @@
+package MiniProject;
+
+public interface BookCatogery {
+	public void scinonfic();
+	public void crime();
+	public void general();
+	public void fantasy();
+	}
