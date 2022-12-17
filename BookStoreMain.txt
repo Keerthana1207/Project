@@ -1,0 +1,88 @@
+package MiniProject;
+
+import java.util.Scanner;
+
+public class BookStoreMain {
+	
+	Scanner sc=new Scanner(System.in);
+	
+	public BookStoreMain() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("USER NAME");
+		String userName=sc.next();
+		System.out.println("PASSWORD");
+		String password=sc.next();
+		BookStore u1=new BookStore(userName,password);
+		System.out.println(u1);
+		System.out.println("------------------------------------------------");
+		
+	
+	{
+	
+	
+	BookDetails app=new BookDetails();
+	System.out.println("Select the Category");
+	System.out.println("\t\t 1)Science Fiction. \r\n"
+			+ "\t\t 2)Crime.\r\n"
+			+ "\t\t 3)General.\r\n"
+			+ "\t\t 4)Fantasy.\r\n");
+			
+
+	
+	int bookcato=sc.nextInt();
+	if (bookcato == 1) {
+		app.scinonfic();
+	} else if (bookcato == 2) {
+		app.crime();
+	}  else if (bookcato == 3) {
+		app.general();
+	} else if (bookcato == 4) {
+		app.fantasy();
+	}  else {
+		System.out.println("Wrong choice!!");
+	}
+	System.out.println("------------------------------------------------");
+	BookStoreMain();
+	System.out.println("------------------------------------------------");
+	
+	}
+	
+	}
+
+	private static void BookStoreMain()  {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Buy or Sell(b for Buy,s for Sell");
+		String st=sc.next();
+		if(st.equals("b"))
+		{
+			System.out.println("\t\t Order Placed \r\n");
+			
+		}
+	
+		else {
+		System.out.println("Your selling Order is Accepted");
+		}
+		int charge=80;
+	    int price =199 ;
+		int total=charge+price;
+		System.out.println("\t The total amount is:"+total+"\r\n");
+		 System.out.println("------------------Thank you---------------------");
+		 System.out.println("------------------------------------------------");
+	}
+	
+		
+	}
+
+	
+		
+
+
+	
+	
+

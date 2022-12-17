@@ -1,0 +1,206 @@
+package MiniProject;
+
+import java.util.Scanner;
+
+public class BookDetails  implements BookCatogery {
+
+Scanner sc=new Scanner(System.in);
+
+public BookDetails() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+String bookcato;
+		public void scinonfic() {
+			System.out.println("------------------------------------------------");
+			System.out.println("Enter the Choice:");
+			System.out.println("\t\t 1.A Brief history of time \r\n"
+					+ "\t\t 2.The world as i see it \r\n"
+					+ "\t\t 3.The theory of Everything \r\n"
+					+ "\t\t 4.The Brain \r\n");
+			
+			int book=sc.nextInt();
+			System.out.println("------------------------------------------------");
+			switch (book)
+			{
+			case 1:System.out.println("Book - A Brief history of time");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Autor- Stephen Hawking. \r\n"
+					+ "About- From the Big Bang to Black Holes is a book on theoretical cosmology \r\n");
+			break;
+			case 2:System.out.println("Book - The world as i see it ");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Author- Albert Einstein \r\n"
+					+ "About- Composed of assorted articles, addresses,\r\n"
+					+ "letters, interviews and pronouncements, it includes Einstein's opinions\r\n"
+					+ "on the meaning of life, ethics, science, society, religion, and politics.\r\n");
+			break;
+			case 3:System.out.println("Book - The theory of Everything");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Author-Stephen Hawking  \r\n"
+					+ "About- Explains all the theories related to the creation and working of the universe  \r\n");
+					
+			break;
+			case 4:System.out.println("Book - The Brain");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Author- David Eagleman  \r\n"
+					+ "About-  This is the story of how your life shapes your brain, and how your brain shapes your life \r\n");
+			break;
+			default:System.out.println("Enter the Correct option:");
+			}
+			
+		}
+
+		@Override
+		public void crime() {
+			System.out.println("------------------------------------------------");
+			System.out.println("Enter the Choice:");
+			System.out.println("\t\t 1.Red Handed \r\n"
+					+ "\t\t 2.One Indian Girl \r\n"
+					+ "\t\t 3.Queens Of Crime \r\n"
+					+ "\t\t 4.The pale blue eye\r\n");
+			
+			int book=sc.nextInt();
+			System.out.println("------------------------------------------------");
+			switch (book)
+			{
+			case 1:System.out.println("Book - Red Handed");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Author- Peter Schweizer\r\n"
+					+ "About- How American elites get rich helping china win \r\n");
+			break;
+			case 2:System.out.println("Book - One Indian Girl ");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Author- Chetan Bhagat\r\n"
+					+ "About- The book is about a girl named Radhika Mehta, \r\n"
+					+ "who is a worker at the Distressed Debt group of Goldman \r\n"
+					+ "Sachs, an investment bank\r\n");
+			break;
+			case 3:System.out.println("Book - Queens Of Crime");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Author-  Kulpreet Yadav, Sushant Singh\r\n"
+					+ "About- Dysfunctional families, sexual abuse, sheer greed and\r\n"
+					+ "sometimes just a skewed moral compass. These are some of the \r\n"
+					+ "triggers that drove the women\r\n");
+			break;
+			case 4:System.out.println("Book - The pale blue eye");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Author-  Louis Bayard\r\n"
+					+ "About- At West Point Academy in 1830, the calm of an October \r\n"
+					+ "evening is shattered by the discovery of a young cadet's body \r\n"
+					+ "swinging from a rope. \r\n");
+			break;
+			default:System.out.println("Enter the Correct option:");
+			}
+			
+		}
+
+		
+
+		@Override
+		public void general() {
+			System.out.println("------------------------------------------------");
+			System.out.println("Enter the Choice:");
+			System.out.println("\t\t 1.The Secret \r\n"
+					+ "\t\t 2.Rich dad poor dad \r\n"
+					+ "\t\t 3.You are my best wife \r\n"
+					+ "\t\t 4.Emotional Inteligence \r\n ");
+			
+			
+			int book=sc.nextInt();
+			System.out.println("------------------------------------------------");
+			switch (book)
+			{
+			case 1:System.out.println("Book - The Secret ");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Author- Rhonda Byrne\r\n"
+					+ "About- It is based on the belief of the pseudoscientific \r\n"
+					+ "law of attraction, which claims that thoughts can change a \r\n"
+					+ "person's life directly\r\n");
+			break;
+			case 2:System.out.println("Book - Rich dad poor dad ");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Author- Robert Kiyosaki\r\n"
+					+ "About- This book focus about the poor mind set,finacial \r\n"
+					+ "litrate and how to be rich \r\n");
+			break;
+			case 3:System.out.println("Book - You are my best wife");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Author- Ajay Pandey\r\n"
+					+ "About- This Story is aboutAjay Pandey and his wife Bhuva's\r\n"
+					+ "Love life and struggles they overcome by their partner's support \r\n");
+			break;
+			case 4:System.out.println("Book - Emotional Inteligence ");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Author- Travis Bradberry, Jean Greaves\r\n"
+					+ "About- Emotional Intelligence 2.0 succinctly explains how to \r\n"
+					+ "deal with emotions creatively and employ our intelligence in a \r\n"
+					+ "beneficial way.\r\n");
+			break;
+			default:System.out.println("Enter the Correct option:");
+			}
+			
+		}
+
+		@Override
+		public void fantasy() {
+			System.out.println("------------------------------------------------");
+			System.out.println("Enter the Choice:");
+			System.out.println("\t\t 1.The Book of Stars \r\n"
+					+ "\t\t 2.The Immortals \r\n"
+					+ "\t\t 3.King Rat \r\n"
+					+ "\t\t 4.The War of Dreams \r\n ");
+			
+			int book=sc.nextInt();
+			System.out.println("------------------------------------------------");
+			switch (book)
+			{
+			case 1:System.out.println("Book - The Book of Stars");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Author- Erik L'Homme\r\n"
+					+ "About- Penny and Mary are sisters living together in a tenement \r\n"
+					+ "apartment in a seedy section of an unnamed city. The responsibility \r\n"
+					+ "of caring for fifteen-year-old Mary has fallen on Penny due to the \r\n"
+					+ "death of their parents years before.\r\n");
+			break;
+			case 2:System.out.println("Book - The Immortals ");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Author- Tamora Pierce\r\n"
+					+ "About- The Story of Veralidaine Sarrasri,an orphan with an\r\n"
+					+ "unusal talent.She can speak with animals \r\n");
+			break;
+			case 3:System.out.println("Book - King Rat");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Author- China Mieville\r\n"
+					+ "About- It follows the life of Saul Garamoud after the death \r\n"
+					+ "of his father and this meeting with King Rat\r\n");
+			break;
+			case 4:System.out.println("Book - The War of Dreams  ");
+			System.out.println("\t\t BOOK DETAILS \r\n"
+					+ "Author- Angela\r\n"
+					+ "About- This picaresque novel is heavily influenced by surrealism, \r\n"
+					+ "Romanticism, critical theory, and other branches of Continental philosophy\r\n");
+			break;
+			default:System.out.println("Enter the Correct option:");
+			}
+			
+		}
+
+		
+
+		public String getBookcato() {
+			return bookcato;
+		}
+
+		public void setBookcato(String bookcato) {
+			this.bookcato = bookcato;
+		}
+
+		@Override
+		public String toString() {
+			return  bookcato ;
+		}
+
+
+}
